@@ -1,46 +1,48 @@
-# NFL Performance Tracker – Commanders 2024 Stats
+# NFL Performance Tracker – Washington Commanders 2024 Stats
 
-This project is a Python-based NFL performance tracker that lets users explore 2024 stats for five Washington Commanders players. Users can view stats, answer trivia questions, and interactively explore data using loops, classes, conditionals, and other Python fundamentals.
-
----
-
-## 🎯 What It Does
-
-- Lets the user select a player (Terry McLaurin, Jahan Dotson, Brian Robinson Jr., Antonio Gibson, or Jayden Daniels).
-- Shows 2024 stats like touchdowns, rushing yards, receptions, and passing yards.
-- Includes interactive trivia about the selected player.
-- Uses input validation and loops to ensure smooth interaction.
+This Python project allows users to interactively explore 2024 performance statistics for selected Washington Commanders players. Users can view individual stats, answer trivia questions, and navigate the program through simple prompts.
 
 ---
 
-## 🧠 Concepts from INST326 Modules
+## What the Program Does
 
-| Module | Concept Used |
-|--------|--------------|
-| Module 1 & 2 | Functions, parameters, loops, input |
-| Module 3 | Testing via `test_nfl_stat_tracker.py` |
-| Module 4–7 | Object-Oriented Programming (Player class, methods) |
-| Module 8 | Regular expressions for input sanitization |
-| Module 9 | Project collaboration and comments |
-| Module 10 | Data handling and basic stats usage |
-| Module 11–13 | (Not directly used but reflected in structured data handling)
+- Prompts the user for their name.
+- Allows the user to select one of five Washington Commanders players.
+- Displays available statistics for that player.
+- Lets the user select a specific stat to view.
+- Asks a trivia question about the chosen player.
+- Supports repeated use without restarting the program.
 
 ---
 
-## ✅ Requirements From Approved Project Proposal
+## Python Concepts Included (Per Project Proposal)
 
-1. **Functions and Parameters** – Used to prompt users, show stats, handle trivia.
-2. **Lists and Dictionaries** – Player stats stored in nested dictionaries.
-3. **Conditionals and Loops** – Control flow for input checking and navigation.
-4. **Error Handling** – Invalid inputs (player names, stats) are handled cleanly.
-5. **Testing** – Includes a separate test file to validate main script functions.
+1. **Functions and Parameters** – Used to organize logic into reusable blocks.
+2. **Lists and Dictionaries** – Store and manage player data and available stats.
+3. **Conditionals and Loops** – Control user flow, input handling, and decision logic.
+4. **Error Handling** – Validates inputs to prevent crashes and guide user choices.
+5. **Testing** – A separate test file verifies key functionality in the program.
 
 ---
 
-## 🏁 How To Run
+## INST326 Modules Implemented
 
-1. Clone this repo or download the files.
-2. Open `nfl_stat_tracker.py` in any Python environment.
-3. Run the script:
-   ```bash
-   python nfl_stat_tracker.py
+| Module | Concept | Implementation |
+|--------|---------|----------------|
+| Module 1 & 2 | Python Fundamentals | User input, loops, conditionals |
+| Module 3 | Testing | `test_nfl_stat_tracker.py` file tests program logic |
+| Module 4–7 | Object-Oriented Programming | `Player` class to encapsulate player data |
+| Module 8 | Regular Expressions | Input cleaned using `re.sub()` to remove special characters |
+| Module 10 | Data Analysis | Stats retrieved from structured dictionaries |
+| Module 9, 11–13 | Collaboration, Data Web, SQL | Concepts reflected in design, though not directly implemented |
+
+---
+
+## How to Run the Program
+
+1. Clone this repository or download the files directly.
+2. Make sure you have Python 3 installed.
+3. Run the main program in your terminal:
+
+```bash
+python nfl_stat_tracker.py
